@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-consumer-dept-80" />
+        <module name="cloud-consumer-dept-feign" />
+        <module name="cloud-eureka-service-7001" />
+        <module name="cloud-eureka-service-7002" />
+        <module name="cloud-eureka-service-7003" />
+        <module name="cloud-provider-dept-8001" />
+        <module name="cloud-provider-dept-8002" />
+        <module name="cloud-provider-dept-8003" />
+        <module name="cloud-provider-dept-hystrix-8001" />
+        <module name="cloudapi" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-consumer-dept-80" target="1.8" />
+      <module name="cloud-consumer-dept-feign" target="1.8" />
+      <module name="cloud-eureka-service-7001" target="1.8" />
+      <module name="cloud-eureka-service-7002" target="1.8" />
+      <module name="cloud-eureka-service-7003" target="1.8" />
+      <module name="cloud-provider-dept-8001" target="1.8" />
+      <module name="cloud-provider-dept-8002" target="1.8" />
+      <module name="cloud-provider-dept-8003" target="1.8" />
+      <module name="cloud-provider-dept-hystrix-8001" target="1.8" />
+      <module name="cloudapi" target="1.8" />
+      <module name="cloudparent" target="1.8" />
+      <module name="cloudproviderdept8001" target="1.8" />
+      <module name="cloudproviderdepthystrix8001" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
